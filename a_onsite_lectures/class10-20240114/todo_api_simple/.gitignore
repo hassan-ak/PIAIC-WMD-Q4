@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration file (if you're using VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore the cache directory for poetry
+.cache/
+
+# Ignore Jupyter Notebooks
+*.ipynb_checkpoints/
+
+# Ignore the pipenv virtual environment
+Pipfile.lock
+
+# Ignore the poetry virtual environment
+poetry.lock
+
+# Ignore the `.pytest_cache` directory
+.pytest_cache/
+
+# Ignore local development settings
+.env
+
+# Ignore any log files
+*.log
+
+# Ignore any temporary files
+*.swp
+*.bak
+*.~
